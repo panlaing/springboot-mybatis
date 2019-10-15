@@ -27,7 +27,7 @@ public class PtasliInfoController {
     @ResponseBody
     public ResponseEntity login(String id) {
 
-        PtasliInfo ptasliInfo = ptasliInfoBiz.sayHello(Long.getLong(id));
+        PtasliInfo ptasliInfo = ptasliInfoBiz.sayHello(Long.parseLong(id));
         return ResponseEntity.ok(ptasliInfo);
     }
 }
