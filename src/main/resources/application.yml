@@ -6,9 +6,13 @@ spring:
   datasource:
     druid:
       # JDBC配置
-      url: jdbc:mysql://192.144.213.105:3306/awantunai_loan?useUnicode=true&characterEncoding=UTF-8
-      username: root
-      password: 123456
+#      url: jdbc:mysql://192.144.213.105:3306/awantunai_loan?useUnicode=true&characterEncoding=UTF-8
+#      username: root
+#      password: 123456
+#      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://rm-d9j5bb45imxcl501zqo.mysql.ap-southeast-5.rds.aliyuncs.com:3306/pefindo_demo?useUnicode=true&characterEncoding=UTF-8
+      username: sandbox_avatec
+      password: Slbwn!iqefabsg3x
       driver-class-name: com.mysql.jdbc.Driver
 
       # 连接池配置

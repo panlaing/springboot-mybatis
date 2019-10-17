@@ -18,7 +18,7 @@ import java.sql.SQLException;
 public class AutoEnumTypeHandler<E extends Enum<E>> extends BaseTypeHandler<E> {
 
     private BaseTypeHandler typeHandler = null;
-
+    
     public AutoEnumTypeHandler(Class<E> type) {
         if (type == null) {
             throw new IllegalArgumentException("Type argument cannot be null");

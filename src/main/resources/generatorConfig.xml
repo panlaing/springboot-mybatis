@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
 <generatorConfiguration>
-    <classPathEntry location="/Users/arnopan/Documents/repository/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar" />
+    <classPathEntry location="/Users/liang.pan/Documents/repository/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar" />
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <commentGenerator>
@@ -12,9 +12,9 @@
             <property name="suppressAllComments" value="true" />
         </commentGenerator>
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://192.144.213.105:3306/awantunai_loan"
-                        userId="root"
-                        password="123456">
+                        connectionURL="jdbc:mysql://rm-d9j5bb45imxcl501zqo.mysql.ap-southeast-5.rds.aliyuncs.com:3306/pefindo_demo"
+                        userId="sandbox_avatec"
+                        password="Slbwn!iqefabsg3x">
         </jdbcConnection>
 
         <javaTypeResolver >
@@ -34,7 +34,7 @@
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
-        <table schema="awantunai_loan" tableName="ptasli_info" domainObjectName="PtasliInfo" enableCountByExample="false"
+        <table schema="pefindo_demo" tableName="p_model_data_xml" domainObjectName="PmodelDataXml" enableCountByExample="false"
                enableUpdateByExample = "false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
             <property name="useActualColumnNames" value="false"/>
         </table>
